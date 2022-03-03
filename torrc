@@ -3,5 +3,3 @@ AutomapHostsOnResolve 1
 TransPort 9040 IsolateClientAddr IsolateClientProtocol IsolateDestAddr IsolateDestPort
 DNSPort 5353
 RefuseUnknownExits 0
-StrictNodes 1
-ExitNodes {ru}
