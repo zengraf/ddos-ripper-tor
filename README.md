@@ -8,7 +8,11 @@
 
 # Usage
 
-```docker run --rm -it zengraf/ddos-ripper-tor -s [IP address]```
+Basic usage
+
+```
+docker run --rm -it zengraf/ddos-ripper-tor -s [IP address]
+```
 
 ## Parameters
 
@@ -20,4 +24,6 @@
 
 ## Example
 
-```docker run --rm -it zengraf/ddos-ripper-tor -e ru,by -s 194.54.14.139 -p 443```
+```bash
+docker run --rm -it zengraf/ddos-ripper-tor -e ru,by -s 194.54.14.139 -p 443
+```
